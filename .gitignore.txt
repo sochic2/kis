@@ -1,6 +1,6 @@
 
-# Created by https://www.gitignore.io/api/python,pycharm,visualstudio,jupyternotebooks
-# Edit at https://www.gitignore.io/?templates=python,pycharm,visualstudio,jupyternotebooks
+# Created by https://www.gitignore.io/api/venv,python,pycharm,visualstudio,jupyternotebooks
+# Edit at https://www.gitignore.io/?templates=venv,python,pycharm,visualstudio,jupyternotebooks
 
 ### JupyterNotebooks ###
 # gitignore template for Jupyter Notebooks
@@ -208,6 +208,19 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+### venv ###
+# Virtualenv
+# http://iamzed.com/2009/05/07/a-primer-on-virtualenv/
+pyvenv.cfg
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+pip-selfcheck.json
 
 ### VisualStudio ###
 ## Ignore Visual Studio temporary files, build results, and
@@ -558,5 +571,6 @@ healthchecksdb
 # Backup folder for Package Reference Convert tool in Visual Studio 2017
 MigrationBackup/
 
-# End of https://www.gitignore.io/api/python,pycharm,visualstudio,jupyternotebooks
+# End of https://www.gitignore.io/api/venv,python,pycharm,visualstudio,jupyternotebooks
 
+test.txt
