@@ -1,0 +1,19 @@
+---
+title: "Untitled"
+author: "Namki"
+date: '2020 4 28 '
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+```{r}
+a = c(1,2,3,4)
+print(a)
+
+```
+

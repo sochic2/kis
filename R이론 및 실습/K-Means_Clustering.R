@@ -1,8 +1,8 @@
-num_of_clusters=5
-num_of_elements=200
+num_of_clusters=10
+num_of_elements=20000
 
-x = sample(1:1000, num_of_elements, replace=F)
-y = sample(1:1000, num_of_elements, replace=F)
+x = sample(1:1000, num_of_elements, replace=T)
+y = sample(1:1000, num_of_elements, replace=T)
 
 t_data = data.frame(x=x, y=y)
 

@@ -668,3 +668,17 @@ head(book[which(book$income<1000),],5)
 
 
 
+- #### Classification(분류)
+
+
+
+### Making Applications
+
+- 웹기반으로 개발
+  - R Shiny 라는 패키지 이용
+  - New Shiny Web Application
+
+
+
+# ctrl shift c 주석
+
