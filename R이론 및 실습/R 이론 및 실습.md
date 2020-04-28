@@ -566,3 +566,105 @@
 #### LaTeX
 
 #### Sweave
+
+###  
+
+### 주소록 만들기
+
+```r
+>readline('블라블라')
+#숫자로 바꾸기
+>as.numeric(age)
+# 글자로 바꾸기
+>as.character(age)
+#book이라는 dataframe에 new_item 추가하기
+>rbind(book, new_item)
+
+>for (i in 1:2) {
+	내용    
+}
+
+>if (i==20){
+    내용
+}else {
+    내용
+}
+
+while (TRUE) {
+    내용,
+    break 가능
+}
+
+#공백 제거
+>name_list = paste('name-', ids, sep='')
+
+# 그래프그리기
+>plot()
+>hist()
+
+#1부터 10까지 중에 2개 뽑기
+>sample(1:10, 2)
+
+#중복 가능하게 하기
+>sample(1:10, 20, replace=TRUE)
+
+#크기 보기
+> dim(book)
+[1] 100   4
+> nrow(book)
+[1] 100
+> ncol(book)
+[1] 4
+#표로 보기
+> View(book)
+
+#위에 몇개 아래 몇개 보기
+>head(book, 숫자)
+>tail(book, 숫자)
+
+#나이 30넘는 사람 5개만 보여줘 위에서
+>head(book[which(book$age>30),],5)
+# 소득 1000 이하 5명
+head(book[which(book$income<1000),],5)
+
+#순서 알려주기
+>order(book$income)
+
+#소득순서로 book 보여줘
+>book[order(book$income),]
+
+
+>book[book$name=='name-10',]
+#substring match 부분문자열 매칭
+> book[which(grepl('5', book$name)),]
+   id    name age income
+5   5  name-5  26   4000
+15 15 name-15  48    700
+25 25 name-25  63   6500
+35 35 name-35  34   1100
+45 45 name-45  58   9500
+50 50 name-50  42   4500
+51 51 name-51  56   8900
+52 52 name-52  13   5100
+53 53 name-53  45   2100
+54 54 name-54  61   6000
+55 55 name-55  35   6800
+56 56 name-56  13   4600
+57 57 name-57  49    600
+58 58 name-58  49    200
+59 59 name-59  52   1600
+65 65 name-65  58   4300
+75 75 name-75  46   2500
+85 85 name-85  47   6500
+95 95 name-95  48   8500
+
+> x = c('Lee', 'Choi', 'Park', 'Lea')
+> grepl('e', x)
+[1]  TRUE FALSE FALSE  TRUE
+
+> library(rgl)
+> points3d(book[,c('age','income','height')])
+```
+
+
+
