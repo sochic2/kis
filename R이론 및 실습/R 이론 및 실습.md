@@ -264,6 +264,14 @@
   [1] 20
   ```
 
+- #### string
+
+  ```R
+  strsplit('I am a boy.', ' ')
+  ```
+
+  
+  
 - #### data.frame
 
   - 2차원 구조, 행(rows, 세로)열(columns, 가로) 구조
@@ -681,4 +689,3 @@ head(book[which(book$income<1000),],5)
 
 
 # ctrl shift c 주석
-

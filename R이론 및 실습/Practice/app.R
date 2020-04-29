@@ -7,8 +7,18 @@ names(r_colors) <- colors()
 ui <- fluidPage(
     leafletOutput("mymap"),
     p(),
-    actionButton("recalc", "New points")
+    actionButton("recalc", "New points"),
+    p(),
+    hr(),
+    
+    column(1,
+           dataTableOutput('mytable')
+    )    
+    
+
 )
+
+
 
 server <- function(input, output, session) {
     
@@ -18,11 +28,17 @@ server <- function(input, output, session) {
     
     output$mymap <- renderLeaflet({
         leaflet() %>%
-            addProviderTiles(providers$Stamen.TonerLite,
-                             options = providerTileOptions(noWrap = TRUE)
-            ) %>%
-            addMarkers(data = points())
+            setView(lng=127.3598557, lat=36.3655591, zoom=16) %>%
+            addProviderTiles('OpenStreetMap.HOT')
     })
+    
+    
+    rock = data.frame()
+    output$mytable = renderDataTable(read.csv('data.csv'))
+    
+    
 }
 
-shinyApp(ui, server)
+
+
+shinyApp(ui,  server)
