@@ -72,3 +72,69 @@ a4 = np.arange(6).reshape(2, 3)
 # print(a1+a2)  #error
 print(a1+a3)    #vector
 print(a1+a4)    #broadcast + vector
+print()
+
+print(np.arange(12).reshape(3, 4))
+print(np.arange(12).reshape(2, -1))
+print()
+
+d = np.arange(12)
+print(d)
+print(np.reshape(d, (3, 4)))   # 추천방식
+print(d.reshape(3, 4))
+
+
+print(np.zeros(5, dtype=np.int32))
+print(np.ones(5))
+print(np.full(5, 2))
+print(np.full(5, -1.0))
+print(np.full(5, -1.0).dtype)
+
+#문제
+#테두리는1로, 속은 0으로 채워진 5행 5열 크기의 배열
+
+f = np.zeros([5, 5], dtype=np.int32)
+print(f)
+# f[0], f[-1] = 1, 1   # 이거랑 밑에꺼 같은 의미
+# f[0, :], f[-1, :] = 1, 1
+f[[0, -1], :] = 1
+
+f[:, 0], f[:, -1] = 1, 1
+print(f)
+print('---------------')
+print()
+
+
+g = np.ones([5, 5], dtype=np.int16)
+g[1:-1, 1:-1] = 0
+print(g)
+print('----------')
+print()
+
+e = np.zeros([5, 5], dtype=np.int32)
+# for i in range(5):
+#     e[i, i] = 1
+# print(e)
+# print(np.eye(5))
+# print(np.identity(5))
+# e[[0, 1, -1], 0] = 1  #index array
+# e[[0, 1, 2, 3, 4], [0, 1, 2, 3, 4]] = 1
+e[range(5), range(5)] = 1
+print(e)
+print('---------')
+print()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
