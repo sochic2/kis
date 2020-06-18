@@ -2,14 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45db88ff-a4ef-43a7-8f1b-93f13796e420" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/protein.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/protein.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/단백체 빅데이터 분석.md" beforeDir="false" afterPath="$PROJECT_DIR$/단백체 빅데이터 분석.md" afterDir="false" />
+>>>>>>> 912b2132f50d35bcbce1e9940e62ef8a7c05a7c8
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<< HEAD
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
@@ -32,6 +39,8 @@
       </file>
     </leaf>
   </component>
+=======
+>>>>>>> 912b2132f50d35bcbce1e9940e62ef8a7c05a7c8
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -42,24 +51,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/peptides.py" />
-        <option value="$PROJECT_DIR$/protein" />
-        <option value="$PROJECT_DIR$/digestion.py" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="952" />
-    <option name="y" value="-8" />
-    <option name="width" value="976" />
-    <option name="height" value="1056" />
-  </component>
+  <component name="ProjectId" id="1dQxJjLuoSara0UZjp7E4WYjiep" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
+<<<<<<< HEAD
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -78,24 +74,38 @@
       </pane>
       <pane id="Scope" />
     </panes>
+=======
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+>>>>>>> 912b2132f50d35bcbce1e9940e62ef8a7c05a7c8
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../home_ssafy/TIL/algorithm/2020_06" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Python.digestion">
+  <component name="RunManager" selected="Python.실습1">
+    <configuration name="실습1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="protein" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/XCorr구현실습" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/XCorr구현실습/실습1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="digestion" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="protein" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -140,6 +150,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.실습1" />
         <item itemvalue="Python.digestion" />
         <item itemvalue="Python.peptides" />
       </list>
@@ -158,6 +169,7 @@
     </task>
     <servers />
   </component>
+<<<<<<< HEAD
   <component name="ToolWindowManager">
     <frame x="952" y="-8" width="976" height="1056" extended-state="0" />
     <layout>
@@ -179,6 +191,45 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+=======
+  <component name="WindowStateProjectService">
+    <state width="1362" height="327" key="GridCell.Tab.0.bottom" timestamp="1592379929588">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1362" height="327" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592379929588" />
+    <state width="1362" height="327" key="GridCell.Tab.0.center" timestamp="1592379929588">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1362" height="327" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592379929588" />
+    <state width="1362" height="327" key="GridCell.Tab.0.left" timestamp="1592379929588">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1362" height="327" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592379929588" />
+    <state width="1362" height="327" key="GridCell.Tab.0.right" timestamp="1592379929588">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1362" height="327" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592379929588" />
+    <state width="1362" height="327" key="GridCell.Tab.1.bottom" timestamp="1592379929588">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1362" height="327" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592379929588" />
+    <state width="1362" height="327" key="GridCell.Tab.1.center" timestamp="1592379929588">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1362" height="327" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592379929588" />
+    <state width="1362" height="327" key="GridCell.Tab.1.left" timestamp="1592379929588">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1362" height="327" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592379929588" />
+    <state width="1362" height="327" key="GridCell.Tab.1.right" timestamp="1592379929588">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1362" height="327" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592379929588" />
+    <state x="825" y="176" key="SettingsEditor" timestamp="1592371123420">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="825" y="176" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1592371123420" />
+>>>>>>> 912b2132f50d35bcbce1e9940e62ef8a7c05a7c8
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -191,6 +242,7 @@
       </breakpoints>
     </breakpoint-manager>
   </component>
+<<<<<<< HEAD
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/digestion.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -207,4 +259,6 @@
       </provider>
     </entry>
   </component>
+=======
+>>>>>>> 912b2132f50d35bcbce1e9940e62ef8a7c05a7c8
 </project>
