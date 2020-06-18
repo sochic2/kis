@@ -20,6 +20,9 @@ for data in datas:
             elif split_data[2] >= '4':
                 charge4.write(data)
 
+
+
+
 charge2.close()
 charge3.close()
 charge4.close()

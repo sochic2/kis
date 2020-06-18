@@ -40,33 +40,64 @@ result_charge2 = sorted(result_charge2, key = lambda result_charge2:float(result
 # print(result_charge2[1])
 # print(len(result_charge2))
 
-total_tcount = 0
-total_dcount = 0
-e_value_threshold = 0
+# total_tcount = 0
+# total_dcount = 0
+# e_value_threshold = 0
+# total_target = 0
+# print(result_charge2[3])
+# t_count_list = []
+# for line in result_charge2:
+#     flag = 0
+#     proteins = line[15].split(',')
+#     for protein in proteins:
+#         if protein[0:4] != 'XXX_':
+#             flag = 1
+#     if flag == 1:
+#         total_tcount += 1
+#         t_count_list.append("\t".join(line).rstrip("\t"))
+#     else:
+#         total_dcount += 1
+#
+#     if total_tcount == 0 or total_dcount == 0:continue
+#     if total_dcount / total_tcount <= 0.01:
+#         e_value_threshold = float(line[5])
+#         total_target = total_tcount
+#
+#
+#
+# print(total_tcount, total_dcount, e_value_threshold, total_target)
+# fdrResult = open('fdrResult.txt', 'w')
+#
+# for i in t_count_list:
+#     fdrResult.write(i)
+
+
+################
+fdr = 0
+max_fdr = 0
+tcount = 0
+dcount = 0
 total_target = 0
-print(result_charge2[3])
-t_count_list = []
-for line in result_charge2:
+e_value_threshold = 0
+for i in range(len(result_charge2)):
+    protein = result_charge2[i][15].split(',')
     flag = 0
-    proteins = line[15].split(',')
-    for protein in proteins:
-        if protein[0:4] != 'XXX_':
+
+    for j in range(len(protein)):
+        if protein[j].startswith('XXX_'):
+            continue
+        else:
             flag = 1
-    if flag == 1:
-        total_tcount += 1
-        t_count_list.append("\t".join(line).rstrip("\t"))
+
+    if flag:
+        tcount += 1
     else:
-        total_dcount += 1
+        dcount += 1
 
-    if total_tcount == 0 or total_dcount == 0:continue
-    if total_dcount / total_tcount <= 0.01:
-        e_value_threshold = float(line[5])
-        total_target = total_tcount
+    if tcount == 0 or dcount == 0: continue
+    if dcount / tcount <= 0.01:
+        e_value_threshold = result_charge2[i][5]
+        total_target = tcount
+#
 
-
-
-print(total_tcount, total_dcount, e_value_threshold, total_target)
-fdrResult = open('fdrResult.txt', 'w')
-
-for i in t_count_list:
-    fdrResult.write(i)
+print(tcount, dcount, total_target, e_value_threshold )
